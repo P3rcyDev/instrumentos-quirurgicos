@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: #1a1a4a;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, th{
+  color: white;
+}
+
+span{
+  color: #a8a8a8;
+  text-decoration: underline;
+}
+
+button{
+  color: white;
+  padding: 8px;
+  margin: 2px;
+  border-radius: .3em;
+  background-color: rgb(98, 31, 161);
+  font-weight: 800;
+}
+button:hover{
+  background-color: blueviolet;
+}
+
+input, select{
+  margin: 3px;
+  padding: 10px;
+  border-radius: .5em;
+}
+input:hover{
+  border-color: blueviolet;
+}
